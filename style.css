@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+*{
+    font-family: sans-serif;
+    color: rgba(0,0,0,0.7);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+body{
+    background: url("img/bokeh-1916807_1280.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card{
+    position: relative;
+    width: 124mm;
+    height: 78mm;
+    border-radius: 20px;
+    border: rgba(255,255,255,0.2) thin solid;
+
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+
+    overflow: hidden;
+}
+.bandeira{
+    position: absolute;
+    width: 70px;
+    bottom: 25px;
+    right: 25px;
+}
+.chip{
+    position: absolute;
+    transform: rotate(90deg);
+    width: 50px;
+    top: 90px;
+    left: 40px;
+}
+.wifi{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    transform: rotate(90deg);
+    left: 85px;
+    top: 90px;
+    opacity: 0.7;
+}
+.numb{
+    font-weight: 900;
+    font-size: 28px;
+    position: absolute;
+    left: 40px;
+    top: 160px;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 15px;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+.nome{
+    font-weight: 900;
+    font-size: 18px;
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    z-index: 2;
+
+}
+.data{    
+    font-weight: 900;
+    font-size: 18px;
+    position: absolute;
+    left: 40px;
+    bottom: 55px;
+    font-family: 'Roboto', sans-serif;
+}
+.titleData{
+    font-weight: 900;
+    font-size: 8px;
+    position: absolute;
+    left: 42px;
+    bottom: 75px;
+    font-family: 'Roboto', sans-serif;
+}
+.circle{
+    position: absolute;
+    border: 3px solid rgba(255,255,255,0.2);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top:100px;
+    left: 220px;
+    z-index: 1;
+}
+.circle2{
+    position: absolute;
+    border: 3px solid rgba(255,255,255,0.2);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top:10px;
+    left: 20px;
+    z-index: 1;
+}
+.itau{
+    position: absolute;
+    width: 175px;
+    left: 280px;
+    top: 5px;
+    z-index: 2;
+}
